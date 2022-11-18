@@ -1,36 +1,42 @@
 @import "null.scss";
 
 // Header
-.header-section {
-        
-}
 
-.navbar {
+
+
+
+.header-buttons-list {
     position: absolute;
-        align-items: center;
-                top: 0;  
-               
-                        
-               
-}
-
-.d-flex {
+    top: 0;
+    left: 0;
     display: flex;
-    justify-content: space-between;
-}
-
-
-.nav {
+    
+    
     
 }
 
 .header-nav-link {
-color: #fff;
+    color: #fff;
 }
 
-.header-bg {
-    width: 100vh;
-}
+    .header-logo {
+        position: absolute;
+       top: 0;
+       right: 0;
+      
+    }
+ 
+    .header-bg {
+        width: 100vw;
+        
+    }
+    
+    .wrapper-header {
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    
 // Header end
 
 
