@@ -1,0 +1,6 @@
+.sass-cache
+.idea/
+.fleet/
+.vscode/
+**/.env
+**/.DS_store
