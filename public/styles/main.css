@@ -123,6 +123,14 @@ h1, h2, h3, h4, h5, h6 {
   justify-self: end;
 }
 
+.error {
+  color: red;
+}
+
+.d-none {
+  display: none;
+}
+
 /*768-992*/
 @media screen and (max-width: 992px) {
   .d-sm-none {

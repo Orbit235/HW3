@@ -36,6 +36,31 @@
         </div>
     </div>
     </section>
+    <section>
+        <form action="" id="form">
+
+            <input placeholder="X" id="x" type="text" name="x" />
+            <p class="error x-error d-none">Неверный X</p>
+            <input placeholder="Y" type="text" name="y" />
+            <fieldset>
+                <legend>R:</legend>
+                <div>
+                  <input required type="radio" id="contactChoice1" name="r" value="-1" />
+                  <label for="contactChoice1">-1</label>
+            
+                  <input required type="radio" id="contactChoice2" name="r" value="0" />
+                  <label for="contactChoice2">0</label>
+            
+                  <input required type="radio" id="contactChoice3" name="r" value="1" />
+                  <label for="contactChoice3">1</label>
+                </div>
+              </fieldset>
+            <p class="error r-error d-none">Выберите R</p>
+
+              <button type="submit">Submit</button>
+
+        </form>
+    </section>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
