@@ -1,42 +1,95 @@
 @import "null.scss";
 
 // Header
+.header-section {
+        
+}
 
-
-
-
-.header-buttons-list {
+.navbar {
     position: absolute;
-    top: 0;
-    left: 0;
+        align-items: center;
+                top: 0;   
+}
+
+.d-flex {
     display: flex;
-    
-    
+    justify-content: space-between;
+}
+
+
+.nav {
     
 }
 
 .header-nav-link {
-    color: #fff;
+color: #fff;
 }
 
-    .header-logo {
-        position: absolute;
-       top: 0;
-       right: 0;
-      
-    }
- 
-    .header-bg {
-        width: 100vw;
-        
-    }
-    
-    .wrapper-header {
-        overflow: hidden;
-        align-items: center;
-    }
-    
-    
+.header-bg {
+    width: 100vw;
+    position: relative;
+}
 // Header end
 
+.closed {
+    display: none;
+}
+.open {
+    div > ul {
+        flex-direction: column;
+    }
+}
+.wrap {
+    // position: relative;
+}
+.hamburger {
+    height: 20px;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+    & span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        margin-bottom: 5px;
+    }
+}
+
+.header-logo {
+    display: flex;
+    img {
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        justify-self: end;
+    }
+}
+
+
+/*768-992*/
+@media screen and (max-width: 992px) {
+    .d-sm-none {
+        display: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hbl {
+        order: 2;
+    }
+
+    .navbar {
+        div > ul {
+            flex-direction: column;
+            & > div {
+                padding: 0 20px;
+            }
+        }
+    }
+}
 

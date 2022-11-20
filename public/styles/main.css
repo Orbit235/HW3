@@ -71,30 +71,78 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-.header-buttons-list {
+.navbar {
   position: absolute;
+  align-items: center;
   top: 0;
-  left: 0;
+}
+
+.d-flex {
   display: flex;
+  justify-content: space-between;
 }
 
 .header-nav-link {
   color: #fff;
 }
 
-.header-logo {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .header-bg {
   width: 100vw;
+  position: relative;
 }
 
-.wrapper-header {
-  overflow: hidden;
-  align-items: center;
+.closed {
+  display: none;
+}
+
+.open div > ul {
+  flex-direction: column;
+}
+
+.hamburger {
+  height: 20px;
+  z-index: 100;
+  display: none;
+  cursor: pointer;
+}
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.header-logo {
+  display: flex;
+}
+.header-logo img {
+  flex-wrap: wrap;
+}
+.header-logo .hamburger {
+  justify-self: end;
+}
+
+/*768-992*/
+@media screen and (max-width: 992px) {
+  .d-sm-none {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hbl {
+    order: 2;
+  }
+  .navbar div > ul {
+    flex-direction: column;
+  }
+  .navbar div > ul > div {
+    padding: 0 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

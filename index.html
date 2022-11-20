@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="public/styles/main.css">
 </head>
 <body>
-    <header class="header-section">
-        
-            <div class="wrapper-header">
-                <div class="nav">
-                    <nav class="header-navigation">
-                        <ul class="header-buttons-list">
-                            <li class="nav-item"><a href="#" class="header-nav-link">Home</a></li>
-                            <li class="nav-item"><a href="#" class="header-nav-link">Product</a></li>
-                            <li class="nav-item"><a href="#" class="header-nav-link">Pricing</a></li>
-                            <li class="nav-item"><a href="#" class="header-nav-link">About</a></li> 
-                            <li class="nav-item"><a href="#" class="header-nav-link">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header-logo">
-                    <a href="#">
-                        <img src="img/logo.png" alt="logo">
-                    </a> 
-                </div>
-            </div>
-            <img src="img/background.png" class="header-bg" alt="background">    
-    </header>
     
+    <section class="header-section">
+        <div class="wrap">
+            <img src="img/background.png" class="header-bg" alt="background">
+            
+        </div>
+        
+        <div class="nav navbar d-flex">     
+                <div class="hbl d-sm-none">
+                    <ul class="header-buttons-list d-flex">
+                        <li class="nav-item"><a href="#" class="header-nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="header-nav-link">Product</a></li>
+                        <li class="nav-item"><a href="#" class="header-nav-link">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="header-nav-link">About</a></li> 
+                        <li class="nav-item"><a href="#" class="header-nav-link">Contact</a></li>
+                    </ul>
+                </div>               
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="logo">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> 
+                </div>
+        </div>
+    </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
