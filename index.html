@@ -6,30 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW1-medium-adaptive</title>
     <link rel="stylesheet" href="public/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">  
 </head>
 <body>
-    <header class="header-section">
-        
-            <div class="wrapper-header">
-                <div class="nav">
-                    <nav class="header-navigation">
-                        <ul class="header-buttons-list">
-                            <li class="nav-item"><a href="#" class="header-nav-link">Home</a></li>
-                            <li class="nav-item"><a href="#" class="header-nav-link">Product</a></li>
-                            <li class="nav-item"><a href="#" class="header-nav-link">Pricing</a></li>
-                            <li class="nav-item"><a href="#" class="header-nav-link">About</a></li> 
-                            <li class="nav-item"><a href="#" class="header-nav-link">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header-logo">
-                    <a href="#">
-                        <img src="img/logo.png" alt="logo">
-                    </a> 
-                </div>
-            </div>
-            <img src="img/background.png" class="header-bg" alt="background">    
-    </header>
-    
+  <section class="header-section">
+    <div class="bg-image">
+      <img class="bg-image" src="img/background.png" alt="header-background">
+      <div class="header-text">
+        <h1>
+            The best products <br> start with Figma
+        </h1>
+        <p>
+            Most calendars are designed for teams. Slate is designed <br> for freelancers
+        </p>
+        <button class="header-button" type="submit">
+          Try For Free
+        </button> 
+      </div>
+    </div>
+      <div class="header-navigation d-flex">       
+        <a href="index.html">
+          <div class="header-logo">
+            <img class src="img/logo.png" alt="logo">
+          </div>   
+        </a>        
+        <ul class="header-buttons-list d-flex">
+          <li class="nav-item"><a href="#" class="header-nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="header-nav-link">Product</a></li>
+          <li class="nav-item"><a href="#" class="header-nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="header-nav-link">About</a></li> 
+          <li class="nav-item"><a href="#" class="header-nav-link">Contact</a></li>
+        </ul>
+        <div class="social d-flex">
+          <div class="btn-container">
+            <button class="btn">
+              <a href="https://twitter.com/figma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                <img src="img/twitter.svg" alt="Twitter-icon">
+              </a>
+            </button>
+          </div>
+          <div class="btn-container">
+            <button class="facebook-btn">
+              <a href="https://ru-ru.facebook.com/figmadesign/" target="_blank">
+               <img src="img/Facebook.svg" alt="Facebook-icon">
+              </a>
+            </button>
+          </div>
+          <div class="btn-container">
+            <button class="btn">
+              <a href="https://www.instagram.com/figma/" target="_blank">
+               <img src="img/instagram.svg" alt="Instagram-icon">
+              </a>
+            </button>
+          </div>          
+        </div>                       
+      </div>          
+  </section>
+  <section class="organizer d-flex">
+    <div class="organizer-text">
+      <h2>
+        Fastest way to <br> organize
+      </h2>
+      <p>
+        Most calendars are designed for teams. <br> Slate is designed for freelancers
+      </p>
+      <button class="organizer-button" type="submit">
+        Try For Free
+      </button> 
+    </div>
+    <div class="organizer-image">
+      <img src="img/Macbook Pro.png" alt="">
+    </div>
+  </section>  
+  <section class="subscription d-flex">
+    <div class="lightning-image">
+      <img src="img/lightning.png" alt="lightning">
+    </div>
+    <div class="text-input">
+      <div class="subscription-text">
+        <p class="sub-p-1">At your fingertips</p>
+        <h3>Lightning fast <br> prototyping </h3>
+        <p class="sub-p-2">Subscribe to our Newsletter</p>
+        <p class="sub-p-3">Available exclusivery on Figmaland</p>
+      </div>
+      <div class="subscription-input d-flex">
+        <form action="input" class="sub-input">
+          <input type="email" placeholder="Your Email">
+        </form>
+        <form action="button">
+          <button class="sub-button">Subscribe</button>
+        </form>
+      </div>
+    </div>      
+  </section>  
 </body>
 </html>
