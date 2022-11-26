@@ -64,10 +64,6 @@ $text-color: #FFFFFF;
         }
 }
 
-.btn-container {
-    
-}
-
 .btn
 {
     background: none;
@@ -145,6 +141,8 @@ box-shadow: 0 5px #666;
 }
     
 // Header end
+
+// Organizer section
 .organizer {
     justify-content: space-around;
     font-family: 'Inter', sans-serif;
@@ -196,11 +194,10 @@ box-shadow: 0 5px #666;
     box-shadow: 0 5px #666;
     }    
 }
+ // Organizer section end
 
-.lightning-image {
- 
-}
 
+// Subsription section
 .subscription {
     align-items: center;
     justify-content: space-around;
@@ -279,13 +276,22 @@ h3 {
     transform: translateY(4px);
     box-shadow: 0 5px #666;
     }  
+
+    // Subscription section end
     
     @media screen and (max-width: 1340px) {
+        
+        .h1 {
+            font-size: 40px;
+                        }
+        p {
+            font-size: 25px;
+        
+            
+        }
         .subscription {
             display: block;
-            }
-               
-                        
+            }                                       
     }            
 
     @media screen and (max-width: 1050px) {
@@ -306,4 +312,6 @@ h3 {
             .hamburger {
                 display: block;
             }
+          
         }
+        

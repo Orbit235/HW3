@@ -291,6 +291,12 @@ h3 {
   box-shadow: 0 5px #666; }
 
 @media screen and (max-width: 1340px) {
+  .h1 {
+    font-size: 40px; }
+
+  p {
+    font-size: 25px; }
+
   .subscription {
     display: block; } }
 @media screen and (max-width: 1050px) {
